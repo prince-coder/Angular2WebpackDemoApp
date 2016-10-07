@@ -80,7 +80,6 @@
     <Content Include="src\app\app.module.js" />
     <Content Include="src\app\app.routing.js" />
     <Content Include="src\app\app.service.js" />
-    <Content Include="src\app\environment.js" />
     <Content Include="src\app\global.state.js" />
     <Content Include="src\app\index.js" />
     <Content Include="src\app\pages\charts\charts.component.js" />
@@ -506,7 +505,6 @@
     <Content Include="src\electron\main.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
-    <Content Include="webpack.config.js" />
     <Content Include="src\app\app.component.js.map" />
     <Content Include="src\app\app.loader.js.map" />
     <Content Include="src\app\app.menu.js.map" />
@@ -514,7 +512,6 @@
     <Content Include="src\app\app.routing.js.map" />
     <Content Include="src\app\app.scss" />
     <Content Include="src\app\app.service.js.map" />
-    <Content Include="src\app\environment.js.map" />
     <Content Include="src\app\global.state.js.map" />
     <Content Include="src\app\index.js.map" />
     <Content Include="src\app\pages\charts\charts.component.js.map" />
@@ -803,7 +800,7 @@
     <Content Include="src\assets\fonts\socicon.ttf" />
     <Content Include="src\assets\fonts\socicon.woff" />
     <Content Include="src\assets\fonts\socicon.woff2" />
-    <Content Include=".bootstraprc" />
+    <Content Include="webpack.config.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -824,7 +821,6 @@
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\app.routing.ts" />
     <TypeScriptCompile Include="src\app\app.service.ts" />
-    <TypeScriptCompile Include="src\app\environment.ts" />
     <TypeScriptCompile Include="src\app\global.state.ts" />
     <TypeScriptCompile Include="src\app\index.ts" />
     <TypeScriptCompile Include="src\app\pages\charts\charts.component.ts" />

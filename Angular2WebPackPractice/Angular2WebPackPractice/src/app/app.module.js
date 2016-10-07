@@ -17,7 +17,6 @@ var hmr_1 = require('@angularclass/hmr');
 /*
  * Platform and Environment providers/directives/pipes
  */
-var environment_1 = require('./environment');
 var app_routing_1 = require('./app.routing');
 // App is our top level component
 var app_component_1 = require('./app.component');
@@ -87,7 +86,7 @@ var AppModule = (function () {
                 app_routing_1.routing
             ],
             providers: [
-                environment_1.ENV_PROVIDERS,
+                //ENV_PROVIDERS,
                 APP_PROVIDERS
             ]
         }), 

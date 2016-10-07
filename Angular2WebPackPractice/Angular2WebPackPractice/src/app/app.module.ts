@@ -8,7 +8,6 @@ import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularcla
 /*
  * Platform and Environment providers/directives/pipes
  */
-import { ENV_PROVIDERS } from './environment';
 import { routing } from './app.routing';
 
 // App is our top level component
@@ -49,7 +48,7 @@ type StoreType = {
     routing
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
-    ENV_PROVIDERS,
+    //ENV_PROVIDERS,
     APP_PROVIDERS
   ]
 })
